@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+:root {
+  --color-bg: #00204a;
+  --color-txt: #02bbf0;
+  --color-card-bg: #00285b;
+  --color-white: #fff;
+  --color-black: #000;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-bg);
+  font-family: "Open Sans", sans-serif;
+}
+
+/* About Us */
+
+.about-us-header {
+  color: var(--color-white);
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.about-us-header span {
+  color: var(--color-txt);
+}
+
+.about-us .about-us-content {
+  color: var(--color-white);
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.about-us-main {
+  display: flex;
+  gap: 20px;
+  padding: 0px 72px;
+}
+
+.about-us-main img {
+  height: 500px;
+}
+
+.about-us-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-us-container h2 {
+  font-size: 28px;
+  margin-bottom: 24px;
+}
+
+.about-us-container p {
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+
+.about-us-container h2,
+p {
+  color: var(--color-white);
+}
+
+button {
+  background-color: var(--color-txt);
+  border: none;
+  padding: 12px 24px;
+  text-align: center;
+  color: var(--color-white);
+  max-width: 120px;
+}
+
+/* OUR Services */
+.our-services {
+  background-color: var(--color-white);
+}
+/* Team Page */
+.teams-section {
+  margin: 40px 0px;
+}
+
+.teams-header {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: var(--color-white);
+}
+
+.teams-header span {
+  color: var(--color-txt);
+}
+
+#teams-container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+
+.teams-card {
+  background-color: var(--color-card-bg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 40px;
+  border-radius: 5px;
+}
+
+.teams-card .person {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #fff;
+}
+
+.person-name {
+  color: var(--color-txt);
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.person-role {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.icons-list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.icons-list li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* Our Service */
+
+.our-service {
+  margin: 80px 0px;
+  background-color: var(--color-white);
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.our-service-header {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.our-service-text {
+  color: var(--color-black);
+}
+
+.our-service-container {
+  display: flex;
+  gap: 20px;
+}
+
+.our-service-card {
+  background-color: #f8f8f9;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  padding: 32px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+.our-service-card {
+  color: var(--color-black);
+}
+.our-service-card p {
+  color: var(--color-black);
+  text-align: center;
+}
+
+.our-service-card a {
+  text-decoration: none;
+  color: var(--color-black);
+  font-weight: 600;
+}
+
+.our-service-header span {
+  color: var(--color-txt);
+}
+svg {
+  width: 100px;
+  height: 100px;
+}
+
+.our-service-button {
+  margin-bottom: 40px;
+}
