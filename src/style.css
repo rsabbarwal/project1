@@ -18,6 +18,10 @@ body {
 }
 
 /* About Us */
+.about-us {
+  display: flex;
+  flex-direction: column;
+}
 
 .about-us-header {
   color: var(--color-white);
@@ -39,7 +43,7 @@ body {
 .about-us-main {
   display: flex;
   gap: 20px;
-  padding: 0px 72px;
+  padding: 72px;
 }
 
 .about-us-main img {
@@ -210,4 +214,23 @@ svg {
 
 .our-service-button {
   margin-bottom: 40px;
+}
+@media only screen and (max-width: 458px) {
+  #teams-container {
+    flex-direction: column;
+    padding: 48px;
+  }
+  .our-service-container {
+    flex-direction: column;
+  }
+  .about-us-main {
+    flex-direction: column;
+    padding: 0;
+  }
+  .about-us-main img {
+    height: 300px;
+  }
+  .about-us {
+    padding: 0px 48px;
+  }
 }
